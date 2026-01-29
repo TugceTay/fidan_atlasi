@@ -2,7 +2,7 @@
 
 Fidan Atlası, sahadaki fidan dikim noktalarını harita üzerinde işaretlemeyi ve keşfetmeyi sağlayan web uygulamasıdır. Uygulama Vite + React + TypeScript + MapLibre tabanlıdır ve Supabase (PostGIS + Edge Functions) ile çalışır.
 
-**Canlı Uygulama:** https://fidanatlasi.pages.dev
+**Canlı Uygulama:** https://fidan_atlasi.pages.dev
 
 ## Özellikler
 
