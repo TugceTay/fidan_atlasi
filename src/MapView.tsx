@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import type { SourceSpecification } from "@maplibre/maplibre-gl-style-spec";
+
 import maplibregl, { type StyleSpecification } from "maplibre-gl";
 import type { Bounds, Entry } from "./types";
 
@@ -305,7 +307,7 @@ export default function MapView({
       });
   };
 
-  const addSourceIfMissing = (map: maplibregl.Map, id: string, source: maplibregl.AnySourceData) => {
+const addSourceIfMissing = (map: maplibregl.Map, id: string, source: SourceSpecification) => {
     if (map.getSource(id)) return;
     try {
       map.addSource(id, source);
