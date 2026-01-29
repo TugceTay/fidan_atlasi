@@ -1,0 +1,6 @@
+[functions.create_entry]
+verify_jwt = false
+
+[functions.sign_photo_upload]
+verify_jwt = false
+
